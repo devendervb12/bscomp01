@@ -1,5 +1,7 @@
-<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
-   <Page title="Page1">
-   
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+controllerName="bs.org.Product.controller.Page1"
+>
+   <Page title="Page1">  
+   <Button text="Goto Page2" press="gotoPage2"/>
    </Page>
 </mvc:View>
